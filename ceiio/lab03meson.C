@@ -1,8 +1,9 @@
 // ************************************************** //
 // ** Malopolska Chmura Edukacyjna 2016 @ AGH UST **
 // ** A.Oblakowska-Mucha ** 
-// ** it can be comptiled in Root: .L make_mezon_2.C++
-//  root: make_meson_2()
+// ** na podstawie make_meson_2 wykonali: Marcin Polok, Jakub Ahaddad
+// ** it can be comptiled in Root: .L lab03meson.C
+//  root: lab03meson()
 // ************************************************* //
 
 #include <iostream>
@@ -13,7 +14,6 @@
 #include <TStyle.h>
 #include <TH1F.h>
 #include <TMath.h>
-#include <TLorentzVector.h>
 
 Double_t getTau(Double_t p, Double_t d, Double_t m) 
 {
