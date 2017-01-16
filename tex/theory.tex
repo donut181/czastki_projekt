@@ -15,11 +15,22 @@ Zauważyć można, że z kwarków wyjściowych powstać mogły też piony $\pi^0
 prawdopodobieństwo na ten rozpad (30\%\cite{database:K}) jest dużo mniejsze od prawdopodobieństwa na rozpad 
 $\pi^+$ i $\pi^-$ (69\%\cite{database:K}) ze względu na tłumienie przez kolor.
 
+\subsection{Sposób obliczeń}
+W celu wykonania histogramu masy mezonu wykorzystano bezpośrednio zmienną D\_Ks0\_M zawartą w drzewie. Do wyliczenia czasu życia posłużono się wzorem
+
+\begin{equation}
+\tau = \frac{m d}{p c}\ ,
+\end{equation}
+
+gdzie $m$ - masa, $d$ - przebyty dystans a $p$ - wartość pędu cząstki. Pęd uzyskano bezpośrednio ze zmiennej D\_Ks0\_P w drzewie, zaś $d$ wyliczono na podstawie współrzędnych wierzchołka początkowego i końcowego.
+
 \subsection{Kryteria wyboru przypadków sygnałowych}
-\textcolor{red}{Ja tu nie wiem co napisać :D}
+%\textcolor{red}{Ja tu nie wiem co napisać :D}
 W celu wybrania przypadków zapewniających lepszą dokładność wyników zastosowano selekcję poprzez wybór zdarzeń, dla których dodatkowe zmienne mieszczą się w odpowiednich zakresach:
 \begin{itemize}
 \item parametr zderzenia w wierzchołku produkcji - powinien być jak najmniejszy dla cząstki wytworzonej w tym wierzchołku,
 \item wartość $\chi^2$ parametru zderzenia w wierzchołku produkcji - jak najmniejsza,
 \item flight distance - wybierane parametry z jak największym.
 \end{itemize}
+
+Dodatkowo, do wyznaczenia czasu życia wykorzystano przypadki pozostałe po odrzuceniu gaussowskiego ogona rozkładu masy.
